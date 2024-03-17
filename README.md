@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+## INTRODUCTION
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project aims to develop a predictive model
+using echocardiographic variables and key risk
+factors to forecast heart attack or cardiac arrest
+risk, enabling personalized risk assessment and
+intervention strategies for effective heart disease
+management.
 
-## Available Scripts
+## METHODOLOGY
 
-In the project directory, you can run:
+DATA COLLECTION: COLLECT DIVERSE ECHOCARDIOGRAPHIC DATA.
+PREPROCESSING: ENHANCE ANDSTANDARDIZE DATA.
+FEATURE EXTRACTION: EXTRACT FEATURES FROM
+ECHOCARDIOGRAPHIC DATA AND INTEGRATE VARIABLES.
+MODEL DEVELOPMENT: DEVELOP PREDICTIVE MODELS FOR HEART
+ATTACK/CARDIAC ARREST RISK USING MACHINE LEARNING.
+MODEL EVALUATION: ASSESS MODEL PERFORMANCE USING METRICS
+LIKE ACCURACY AND AUC-ROC.
+RISK STRATIFICATION: CLASSIFY INDIVIDUALS INTO RISK
+CATEGORIES BASED ON PREDICTED LIKELIHOOD OF CARDIAC
+EVENTS
 
-### `npm start`
+## ADDITIONAL PARAMETERS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Numeric:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+age: Age (years)
+trestbps: Resting blood pressure (mm Hg)
+chol: Serum cholesterol (mg/dl)
+thalach: Maximum heart rate achieved
+oldpeak: ST depression induced by exercise relative to rest
+ca: Number of major vessels colored by fluoroscopy
 
-### `npm test`
+### String:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+sex: Sex (female or male)
+cp: Chest pain type (typical angina, atypical angina, non-anginal pain, asymptomatic)
+fbs: Fasting blood sugar (0 for false, 1 for true)
+restecg: Resting electrocardiographic results (normal, ST-T wave abnormality, probable
+or definite left ventricular hypertrophy)
+exang: Exercise induced angina (0 for no, 1 for yes)
+slope: Slope of the peak exercise ST segment (upsloping, flat, downsloping)
+thal: Thal (error, fixed defect, normal, reversible defect)
