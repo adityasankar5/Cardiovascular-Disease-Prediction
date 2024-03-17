@@ -1,10 +1,32 @@
-.App {
-  text-align: center;
+
+
+.bkl{
+  margin-top: 0px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+span{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column ;
+  justify-content: left ;
+
+}
+.form{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prediction-form{
+  width: 50vw;
+  padding: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -12,6 +34,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #282c34;
@@ -28,6 +51,73 @@
   color: #61dafb;
 }
 
+button {
+  background-color: #15748e;
+  border: none;
+  padding: 5px 5px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.learn{
+  padding: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.title{
+  font-size: 2rem;
+  margin-bottom: 20px;
+
+}
+
+
+.content {
+  width: 80%;
+  margin: auto;
+  margin-top: 18px;
+  align-items: center;
+  padding: 20px;
+  background-color: #c1f0ee;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+  background-color: #61dafb;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.heart{
+  padding: 20px;
+}
+
+.cl1{
+  padding-top: 0px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
