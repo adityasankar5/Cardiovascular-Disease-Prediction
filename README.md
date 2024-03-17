@@ -42,3 +42,7 @@ or definite left ventricular hypertrophy)
 exang: Exercise induced angina (0 for no, 1 for yes)
 slope: Slope of the peak exercise ST segment (upsloping, flat, downsloping)
 thal: Thal (error, fixed defect, normal, reversible defect)
+
+## MODEL USED
+
+Random Forest
